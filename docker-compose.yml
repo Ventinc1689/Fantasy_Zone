@@ -1,0 +1,29 @@
+services:
+
+    db:
+        image: postgres:17
+        container_name: fz_db
+        environment:
+            POSTGRES_DB: fantasy_zone
+            POSTGRES_USER: fantasy
+            POSTGRES_PASSWORD: zone
+        ports:
+            - "5432:5432"
+        volumes:
+            - fz_db_data:/var/lib/postgresql/data
+
+    backend:
+        build: ./fz-backend
+        container_name: fz-backend
+        ports:
+            - "8686:8686"
+        environment:
+            SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/fantasy_zone
+            SPRING_DATASOURCE_USERNAME: fantasy
+            SPRING_DATASOURCE_PASSWORD: zone
+            SPRING_JPA_HIBERNATE_DDL_AUTO: validate
+        depends_on:
+            - db
+
+volumes:
+    fz_db_data:

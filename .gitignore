@@ -1,0 +1,48 @@
+# Root .gitignore for Fantasy-Zone (frontend + backend)
+
+# Node.js (frontend)
+fz-frontend/node_modules/
+fz-frontend/dist/
+
+# Java (backend)
+fz-backend/target/
+fz-backend/.mvn/wrapper/
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Misc
+fz-backend/.classpath
+fz-backend/.project
+fz-backend/.settings/
+
+# Ignore test output
+fz-backend/target/test-classes/
+
+# Ignore local database files (if any)
+*.db
+
+# Ignore coverage reports
+fz-frontend/coverage/
+
+# Ignore npm debug logs
+fz-frontend/npm-debug.log*
+
+# Ignore Maven wrapper logs
+fz-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore build artifacts
+fz-backend/build/
+
+# Ignore VS Code settings
+.vscode/
