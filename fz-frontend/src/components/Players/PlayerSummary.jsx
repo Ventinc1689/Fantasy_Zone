@@ -24,20 +24,13 @@ const PlayerSummary = ({ player, onClose }) => {
         <div className="fixed flex items-center justify-center inset-0 bg-black/40 backdrop-brightness-50 z-500">
 
             {/* Modal Container */}
-            <div className="absolute md:rounded-lg w-full h-full md:w-[80%] md:h-[80%] bg-black md:border-2 border-amber-400 flex flex-col overflow-hidden">
+            <div className="absolute md:rounded-lg w-full h-full md:w-[70%] md:h-[80%] lg:w-[50%] bg-black md:border-2 border-amber-400 flex flex-col overflow-hidden">
 
                 {/* Sticky Header */}
                 <div className="flex flex-col sticky top-0 z-20">
 
                     {/* Player Info Section */}
                     <div className="flex p-5 bg-linear-to-r from-gray-200 to-gray-900 flex-row">
-
-                        {/* Player Image (!!! REPLACE IN FUTURE WITH REAL PLAYER HEADSHOT) */}
-                        <img
-                            src={person}
-                            alt="Player"
-                            className="object-contain h-20 w-20 md:h-30 md:w-30 mr-5"
-                        />
 
                         {/* Player Details */}
                         <div className="flex flex-col gap-5 justify-center">
@@ -90,7 +83,7 @@ const PlayerSummary = ({ player, onClose }) => {
                     )}
                     
                     {/* Rushing Stats */}
-                    {player.rushing_yards > 0 && (
+                    {(player.position === 'RB' || player.position === 'QB')  && (
                         <div className="w-full">
                             <p className="bg-amber-400 items-center justify-center flex py-3 font-bold text-black">Rushing Stats</p>
 
