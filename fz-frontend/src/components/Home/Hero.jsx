@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import logo from '/fantasy_logo.svg'
+import logo from '/logo.png'
 import enter from '../../assets/next.svg'
 import menu from '../../assets/menu.svg'
 
@@ -50,7 +50,7 @@ const Hero = () => {
                         <img 
                             src={logo}
                             alt="App Logo"
-                            className="h-80 w-80 "
+                            className="h-110 w-110 "
                         />
                     </div>
 

@@ -25,5 +25,16 @@ services:
         depends_on:
             - db
 
+    frontend:
+        build: 
+            context: ./fz-frontend
+            dockerfile: Dockerfile
+        container_name: fz-frontend
+        ports:
+            - "5173:80"
+        depends_on:
+            - backend
+            
+
 volumes:
     fz_db_data:

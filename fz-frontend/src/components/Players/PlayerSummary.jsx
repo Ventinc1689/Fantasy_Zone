@@ -1,5 +1,4 @@
 import React from 'react'
-import person from '../../assets/person.svg'
 
 const PlayerSummary = ({ player, onClose }) => {
 

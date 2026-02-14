@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import logo from '../../../public/fantasy_logo.svg'
+import logo from '../../../public/logo.png'
 import Home from '../../assets/home.svg'
 import Teams from '../../assets/team.svg'
 import Players from '../../assets/person.svg'
@@ -33,7 +33,7 @@ const Navbar = ({ isOpen, onClose }) => {
                     <img 
                         src={logo}
                         alt="App Logo"
-                        className="h-20 w-20 mb-8 mt-4"
+                        className="h-25 w-25 mb-8 mt-4"
                     />
 
                     {/* All nav options with text and logo */}
