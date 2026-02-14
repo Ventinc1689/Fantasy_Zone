@@ -19,7 +19,8 @@
 * Fully responsive user interface
 
 ## Images
-<img width="1509" height="857" alt="Screenshot 2026-02-13 at 10 01 57 PM" src="https://github.com/user-attachments/assets/e9ece7e0-3fd9-48cd-8a69-32733b3a39c7" />
-<img width="1494" height="855" alt="Screenshot 2026-02-13 at 10 02 17 PM" src="https://github.com/user-attachments/assets/c5ad9ca0-eecb-4049-a9d4-9b493ab54b8a" />
-<img width="1506" height="839" alt="Screenshot 2026-02-13 at 10 05 25 PM" src="https://github.com/user-attachments/assets/1ee82493-2b32-442f-87d7-2d2582f106e6" />
-<img width="1510" height="855" alt="Screenshot 2026-02-13 at 10 04 13 PM" src="https://github.com/user-attachments/assets/7b4570e1-69b1-48fa-ac28-4dc6d4a0db0f" />
+
+<img width="1507" height="843" alt="Screenshot 2026-02-13 at 11 22 20 PM" src="https://github.com/user-attachments/assets/428b72e7-a3c4-481c-9866-0918cc3ddfe4" />
+<img width="1511" height="854" alt="Screenshot 2026-02-13 at 11 23 15 PM" src="https://github.com/user-attachments/assets/58a564d7-18af-41fd-87e2-e99db1c2515b" />
+<img width="1506" height="854" alt="Screenshot 2026-02-13 at 11 23 29 PM" src="https://github.com/user-attachments/assets/589a4bac-64af-4c89-a225-4bdc9ce8c9cf" />
+<img width="1506" height="857" alt="Screenshot 2026-02-13 at 11 24 14 PM" src="https://github.com/user-attachments/assets/5efb041f-02c3-4781-a2ed-f245b5a36fd8" />
