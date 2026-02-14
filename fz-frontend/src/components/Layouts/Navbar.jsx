@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import logo from '../../../public/logo.png'
+import logo from '../../../public/fantasy-logo.svg'
 import Home from '../../assets/home.svg'
 import Teams from '../../assets/team.svg'
 import Players from '../../assets/person.svg'

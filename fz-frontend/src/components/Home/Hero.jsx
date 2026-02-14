@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import logo from '/logo.png'
+import logo from '/fantasy-logo.svg'
 import enter from '../../assets/next.svg'
 import menu from '../../assets/menu.svg'
 
