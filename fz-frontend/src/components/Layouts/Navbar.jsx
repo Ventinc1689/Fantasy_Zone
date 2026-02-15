@@ -26,7 +26,7 @@ const Navbar = ({ isOpen, onClose }) => {
     return (
         <>
             {/* Side Nav Bar */}
-            <nav className="text-white fixed top-0 left-0 w-[120px] h-full z-100 bg-black text-[14px] hidden md:block">
+            <nav className="text-white fixed top-0 left-0 w-[120px] h-screen z-100 bg-black text-[14px] hidden md:block">
                 <div className="flex flex-col items-center">
 
                     {/* App Logo */}
