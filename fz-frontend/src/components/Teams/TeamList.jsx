@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 const TeamList = ({ teams, onTeamClick }) => {
     return (
-        <div className="mt-50 md:pt-5 overflow-auto flex justify-center flex-row flex-wrap gap-15 md:mr-10 pb-15">
+        <div className="mt-55 md:mt-50 md:pt-5 overflow-auto flex justify-center flex-row flex-wrap gap-15 md:mr-10 pb-15">
 
             {/* Display of all NFL teams */}
             {teams.map(team => (

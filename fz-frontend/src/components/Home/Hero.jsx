@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
 
             {/* Hero Section */}
-            <div className="flex flex-col items-center justify-center h-screen">
+            <div className="flex flex-col items-center justify-center h-screen pb-15 md:pb-0">
                 <div className="flex md:flex-row h-full">
 
                     {/* Welcome Message */}
