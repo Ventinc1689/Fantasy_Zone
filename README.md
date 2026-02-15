@@ -1,5 +1,7 @@
 # Fantasy Zone
 
+https://fantasy-zone.onrender.com
+
 ## Development
 * React JS
 * Tailwind CSS
