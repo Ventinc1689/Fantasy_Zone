@@ -8,7 +8,7 @@ const Hero = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="md:pl-35 pt-5 h-full w-full">
+        <div className="md:pl-35 pt-5 h-screen w-full">
             <div className="flex flex-row">
                 {/* Header */}
                 <div className="flex md:flex-col fixed px-6 md:px-0">
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
 
             {/* Hero Section */}
-            <div className="flex flex-col items-center justify-center h-screen pb-15 md:pb-0">
+            <div className="flex flex-col items-center justify-center h-full pb-20 md:pb-0">
                 <div className="flex md:flex-row h-full">
 
                     {/* Welcome Message */}

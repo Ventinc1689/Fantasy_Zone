@@ -43,7 +43,7 @@ const CompareHome = () => {
         <div className="flex flex-col md:ml-35 h-screen p-5 md:p-0 md:py-5 md:pr-8">
 
             {/* Sticky Header */}
-            <div className="sticky top-0 z-100 w-full gap-2 flex flex-col">
+            <div className="sticky top-0 z-100 bg-black w-full gap-2 flex flex-col">
                 <p className="page-title">Compare Players</p>
                 <p>Click on add players to compare stats</p>
 
