@@ -74,7 +74,7 @@ const CompareHome = () => {
                 </div>
             </div>
 
-            <div className="w-full flex items-center justify-center mb-5">
+            <div className="w-full flex items-center justify-center lg:mb-5">
                 {/* Add Player Button & Modal */}
                 <AddPlayer 
                     addPlayerOpen={addPlayerOpen}
