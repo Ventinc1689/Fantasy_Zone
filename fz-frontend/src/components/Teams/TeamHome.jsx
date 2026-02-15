@@ -51,7 +51,7 @@ const TeamHome = () => {
         <div className="md:ml-30 flex flex-col h-screen ">
 
             {/* Sticky Header and Search Bar */}
-            <div className="fixed top-0 bg-black z-50 w-full">
+            <div className="fixed top-0 bg-black z-50 w-full pb-5">
                 {/* Header */}
                 <p className="page-title mt-5 mb-1 px-5">NFL Teams</p>
                 <p className="top-18 text-[14px] md:text-[18px] px-5">Click on each team to see more details and players from the selected team</p>
