@@ -49,10 +49,10 @@ const AddPlayer = ({ addPlayerOpen, setAddPlayerOpen, players, setSelectedPlayer
         <>
             {/* Add Player Button */}
             <div 
-            className="flex flex-row gap-2 items-center justify-center bg-gray-700 rounded-lg w-full md:w-1/2 px-6 py-2 border-2 border-amber-400 hover:cursor-pointer hover:bg-gray-600 shrink-0"
+            className="flex flex-row gap-2 items-center justify-center bg-gray-700 rounded-lg w-full md:w-1/2 px-6 md:py-2 border-2 border-amber-400 hover:cursor-pointer hover:bg-gray-600 shrink-0"
             onClick={() => setAddPlayerOpen(true)}
             >
-                <p className="text-[40px]">+</p>
+                <p className="text-[30px]">+</p>
                 <p className="text-[20px]">Add Player</p>
             </div>
 

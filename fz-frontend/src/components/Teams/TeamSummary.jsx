@@ -65,6 +65,14 @@ const TeamSummary = ({ team, onClose }) => {
         fetchTeamPlayers();
     }, [team.name]);
 
+    // Loading and Error States
+    if (loading) {
+        return <div className="px-5 md:ml-35 h-full flex items-center justify-center">Loading Teams...</div>;
+    }
+    if (error) {
+        return <div className="px-5 md:ml-35 h-full flex items-center justify-center">Error: {error}</div>;
+    }
+
     // Summary modal that shows team stats and players 
     return (
         <div className="fixed flex items-center justify-center inset-0 bg-black/40 backdrop-brightness-50 z-200">
