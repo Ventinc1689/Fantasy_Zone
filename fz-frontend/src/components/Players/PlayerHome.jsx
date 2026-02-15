@@ -148,7 +148,7 @@ const PlayerHome = () => {
             </div>
 
             {/* List of all players matching all filters */}
-            <div className="flex-1 overflow-y-auto mt-52 px-5">
+            <div className="flex-1 overflow-y-auto mt-52 px-4">
                 <PlayerList 
                     players={filteredPlayers}
                     onPlayerClick={setSelectedPlayer}
