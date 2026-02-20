@@ -1,6 +1,7 @@
 # Fantasy Zone
 
 https://fantasy-zone.onrender.com
+- Due to inactivity, the startup of team/player stats will take around a minute to load. 
 
 ## Development
 * React JS
@@ -8,6 +9,7 @@ https://fantasy-zone.onrender.com
 * Spring Boot
 * PostgreSQL
 * Docker
+* Render for deployment
 
 
 ## Features:
