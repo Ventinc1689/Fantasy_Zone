@@ -6,8 +6,6 @@
 * Spring Boot
 * PostgreSQL
 * Docker
-* Render for deployment
-
 
 ## Features:
 * Player page, displaying top 500 relevant fantasy players and statistics
